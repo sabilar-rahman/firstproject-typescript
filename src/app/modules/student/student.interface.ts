@@ -31,7 +31,7 @@ export type Student = {
 
     name:UserName ,
     gender:"male"|"female",
-    dob:string,
+    dob?:string,
     email: string;
     contactNo:string;
     emergencyContactNo:string;
@@ -41,7 +41,7 @@ export type Student = {
     guardian:Guardian;
     localGuardian:localGuardian;
     profileImage?:string;
-    isActive:'active'|'inactive'
+    isActive:'active'|'blocked'
 
 
 }
