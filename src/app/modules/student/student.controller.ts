@@ -48,12 +48,10 @@ const getSingleStudent = async (req: Request, res: Response) => {
   }
 };
 
+
 export const StudentController = {
-  createStudent,
-  getAllStudents,
-  getSingleStudent,
-<<<<<<< HEAD
+    createStudent,
+    getAllStudents,
+   
+    getSingleStudent,
 };
-=======
-};
->>>>>>> fb6ee955565ab43fc06b9893333731fffea79da2

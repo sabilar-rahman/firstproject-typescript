@@ -21,8 +21,4 @@ export const StudentServices = {
   createStudentIntoDB,
   getAllStudentFromDB,
   getSingleStudentFromDB,
-<<<<<<< HEAD
 };
-=======
-};
->>>>>>> fb6ee955565ab43fc06b9893333731fffea79da2
